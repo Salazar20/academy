@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estiloss.css">
+</head>
+<body>
+    <nav class="nav">
+
+        <div class="nav__container">
+            <h1 class="nav__title">MENU</h1>
+
+            <a href="#menu" class="nav__menu">
+                <img src="./assets/menu.svg" class="nav__icon">
+            </a>
+            <a href="#" class="nav__menu nav__menu--second">
+                <img src="./assets/close.svg" class="nav__icon ">
+            </a>
+
+            <ul class="dropdown" id="menu">
+                
+                <li class="dropdown__list">
+                    <a href="index.html" class="dropdown__link">
+                        <img src="./assets/house.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Inicio</span>
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.svg"
+                         class="dropdown__icon">
+                        <span class="dropdown__span">Cursos</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="Python.html" class="dropdown__anchor">Backend con Python</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="JavaScript.html" class="dropdown__anchor">Full Stack Developer con JavaScript</a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/email.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Contacto</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="Contacto.html" class="dropdown__anchor">Contacto 
+                                    </a>
+                            </li>
+                           
+                           
+                        </ul>
+                    </div>
+                </li>
+                
+                <li class="dropdown__list">
+                    <a href="Contacto.html" class="dropdown__link">
+                        <img src="./assets/help.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Ayuda</span>
+                    </a>
+                </li>
+
+            </ul>
+            
+        </div>
+    </nav>
+    <h2>Contacto</h2>
+
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://twitter.com/" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </div>
+    
+
+</body>
+</html>
